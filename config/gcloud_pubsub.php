@@ -4,11 +4,11 @@ return [
     'driver' => 'gcloud_pubsub',
 
     'default' => [
-        'projectId'            => getenv('GC_PROJECT_ID'),
-        'default_topic'        => getenv('GC_PUBSUB_TOPIC'),
-        'default_subscription' => getenv('GC_PUBSUB_SUBSCRIPTION'),
-        'keyFilePath'          => getenv('GC_AUTH_JSON'),
-        'default_ttl'          => (getenv('GC_PUBSUB_TTL')) ? getenv('GC_PUBSUB_TTL') : 100,
+        'projectId'    => getenv('GC_PROJECT_ID'),
+        'topic'        => getenv('GC_PUBSUB_TOPIC'),
+        'subscription' => getenv('GC_PUBSUB_SUBSCRIPTION'),
+        'keyFilePath'  => getenv('GC_AUTH_JSON'),
+        'ttl'          => (getenv('GC_PUBSUB_TTL')) ? getenv('GC_PUBSUB_TTL') : 100,
     ],
 
     'queue_names' => [
