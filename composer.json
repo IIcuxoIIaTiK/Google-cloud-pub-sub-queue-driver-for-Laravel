@@ -10,12 +10,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "iicuxoiiatiK\\GCloudPubSub\\": "src/"
+      "IIcuxoIIaTiK\\GCloudPubSub\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "iicuxoiiatiK\\GCloudPubSub\\Test\\": "tests/"
+      "IIcuxoIIaTiK\\GCloudPubSub\\Test\\": "tests/"
     }
   },
   "require": {
